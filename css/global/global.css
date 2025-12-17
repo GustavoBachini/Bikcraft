@@ -8,7 +8,8 @@ h2,
 h3,
 h4,
 ul,
-p{
+blockquote,
+p {
   margin: 0px;
 }
 ul {

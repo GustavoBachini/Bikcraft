@@ -5,7 +5,7 @@
 .introducao {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
+  gap: 0 40px;
 }
 
 .introducao img {
