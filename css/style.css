@@ -10,7 +10,7 @@
 @import "./utilidades/componentes.css";
 
 /*Home*/
-@import "./home/introduçao.css";
+@import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
@@ -20,5 +20,8 @@
 
 /*Seguros*/
 @import "./seguros/seguros.css";
+
+/*Termos*/
+@import "./termos/termos.css";
 
 
