@@ -1,0 +1,32 @@
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: start;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicletas-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.bicicletas-imagens img {
+  flex: 1;
+  min-width: 200px;
+}
+.bicicletas-imagens img:first-child {
+  min-width: 100%;
+}
+.bicicleta-conteudo > p {
+  margin-bottom: 32px;
+}
+.bicicleta-comprar {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+.bicicletas-comprar a {
+  grid-row: span 2;
+}
